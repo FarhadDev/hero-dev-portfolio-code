@@ -50,7 +50,7 @@ header{
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
 }
 nav{
     width: 70%;
@@ -215,4 +215,51 @@ nav .links a{
 .summary-container hr{
     margin: 30px 0;
     color: #D1D1D1;
+}
+.button-center{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-content{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+    /* justify-content: space around; */
+}
+.footer-content .social{
+    max-width: 562px;
+}
+.footer-content h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-content .footer-social{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.footer-content .icons a{
+    margin-right: 24px;
+}
+.footer-content .form input[type="text"], input[type="email"], textarea{
+    width: 461px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
 }
